@@ -1,0 +1,64 @@
+unknown {padding: 0; margin: 0;}
+body {font-size: 11px; margin: 0px; color: #324e63; line-height: 14px; padding-top: 0px; font-family: arial,helvetica,sans-serif; background-color: #e7ebee; text-align: center}
+div#pageContainer{padding-left: 0px; margin: 0px auto; width: 986px; text-align: center; background-color: #fff;}
+
+#tblPageContainer{padding:0px;width: 986px;;border: 0;}
+#tblHeaderContainer {padding: 0px; width: 986px; height:257px; background-image: url(../../images2/header_background.gif);background-repeat: no-repeat; }
+#tblRightContainer{width: 200px; padding-right: 20px;}
+#tblContentContainer {padding: 0px 30px 0 20px; text-align: justify;}
+#tblContentContainer p {margin: 0px 10px}
+#tblContentContainer table td.bordaDireita{border-right: 1px solid #FFE1C4;}
+#tblContentContainer table td{padding-right:10px;	padding-left:10px;}
+#tblContentContainer h3 {font-size: 13px; margin: 0px 0px 6px 0px; color: #c60;line-height: 19px;}
+#tblContentContainer h3 a {FONT-SIZE: 13px; MARGIN-BOTTOM: 6px; COLOR: #c60}
+
+.caminhoMenu{clear:both;padding-right:10px;text-align:right;}
+.box {margin-bottom: 5px;float: right;}
+
+#logonBox {background-color: #e7ebee; margin-bottom: 10px; width: 198px;border: 1px solid gray;}
+#logonForm {padding-right: 4px; margin: 10px; font-size: 10px;text-align: left;}
+#logonForm input{width: 70px;}
+
+a {color: #1f77af; text-decoration: none}
+a:hover {text-decoration: underline}
+a:visited {color: #14d}
+
+div#footerContainer {margin: 0px auto; width: 986px; padding-top: 5px; background-repeat: no-repeat; height: 37px; text-align: center;border-style: solid; border-width: 2px 0px 0px 0px; border-color:#f28e00;line-height: 4px;background-color: #fff;}
+input {border-right: #333333 1px solid; border-top: #333333 1px solid; font-size: 12px; border-left: #333333 1px solid; border-bottom: #333333 1px solid; background-color: #eef0f2}
+.logonOkButton {margin-top: 5px;vertical-align: text-bottom;}
+.first {background-image: none! important}
+
+.product_display_l {FLOAT:left; PADDING-RIGHT: 5px; MARGIN-TOP: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 300px; PADDING-TOP: 5px;}
+.product_display_r {FLOAT:right; PADDING-RIGHT: 5px; MARGIN-TOP: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 300px; PADDING-TOP: 5px;}
+.product_pic {float: left}
+
+.product_description{width: 300px}
+.product_description{background-image: url(../../images2/listra.gif); background-repeat: no-repeat;background-position: 0 17px; }
+
+h1.pageTitle {margin-top: 0px; font-weight: bold; font-size: 12px; margin-bottom: 18px; padding-left:12px; margin-left:10px; color: #0065a5; line-height: 25px; background: url(../../images2/blox_4.gif) no-repeat center left;}
+
+div.siteMessage{position: absolute;top:10px;right: 4px;color: red;border: 1px solid red;padding: 5px;background-color: #FFF4F4;}
+
+.bodyhome{margin-left:50px;;height: 485px; width:670px; background-image: url(../../images2/home_background2.gif);background-repeat:no-repeat;}
+.bodyhome table{width: 485px;margin-left: 130px;margin-top: 50px;}
+
+.boxsubmenu_row {padding:5px 0 0 8px; height:15px; border-bottom:1px dotted #cccccc; margin:0px 10px; color:red;}
+
+.box_top{background: transparent url(../../images2/bg_related_top.gif) no-repeat scroll left top;width: 200px;height: 7px;}
+.box_bottom{background:transparent url(../../images2/bg_related_bottom_wh.gif) no-repeat scroll left top;width: 200px;height: 19px;}
+.box_center{background:transparent url(../../images2/bg_related_center.gif) ;width: 200px;text-align: left;}
+
+.box_top_orange{background: transparent url(../../images2/bg_related_top_orange.gif) no-repeat scroll left top;width: 200px;height: 7px;}
+.box_bottom_orange{background:transparent url(../../images2/bg_related_bottom_wh_orange.gif) no-repeat scroll left top;width: 200px;height: 19px;}
+.box_center_orange{background:transparent url(../../images2/bg_related_center_orange.gif) ;width: 200px;text-align: left;}
+
+.box_title{border-bottom:1px black solid;text-align: left;margin-left: 10px;margin-right: 10px;}
+.box_title_text {position: relative; bottom: 3px; left:3px;font-weight:bold;color: black;}
+.box_title_icon{margin-right:4px;}
+.imgProduto{margin: 0pt 5px 0pt 0pt; float: left;}
+
+div#extranetNav{position: absolute;top: 5px;right: 280px;width: 300px;text-align: right;}
+div#extranetNav a, div#extranetNav a:visited{color: #c60; text-decoration: underline;}
+div#extranetNav a:hover{color: #c60; TEXT-DECORATION: none;}
+div#categoryListDiv{float: left;width: 150px;border-right: 1px silver dashed;padding: 10px 20px 0 10px;}
+div#fileListDiv{float: left;width: 400px;padding: 10px;}

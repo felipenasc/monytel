@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="Page" table="page">
+    <id name="id" column="id" unsaved-value="null">
+      <generator class="native"></generator>
+    </id>
+    
+    <version name="version" column="version" type="java.lang.Long"/>
+    
+    <property name="name" column="name" not-null="true"/>
+    <property name="content" column="content" not-null="false"/>
+    <property name="title" column="title" not-null="true"/>
+    <property name="active" column="active" not-null="true"/>
+    
+    <property name="priority" column="priority" not-null="false"/>
+    
+    
+     <set name="childrenPages" cascade="all, delete-orphan" sort="natural" order-by="priority asc">
+        <key column="parent_page"/>
+        <one-to-many class="Page"/>
+    </set>
+    
+    <many-to-one name="parentPage" class="Page" column="parent_page" not-null="false"/>
+    
+  </class>
+</hibernate-mapping>

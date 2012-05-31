@@ -1,0 +1,81 @@
+/* CSS Document */
+
+/* Tabela LIST */
+	table.list, table.detail {
+		width: 100%;
+		border: 1px solid #8394ac;
+		border-collapse: collapse;
+		clear: both;
+	}	
+	table.list th{
+		border-left:#D6D6D6 1px dotted;
+		border-top: 1px solid #8394ac;
+		border-bottom: 1px solid #8394ac;
+		border-collapse: collapse;
+		padding: 2px;
+		background-color: #F1F3F5;
+		text-align: left;
+	}	
+	table.list td, table.detail td, table.detail th{
+		border:#D6D6D6 1px dotted;
+		padding: 2px;
+		line-height: 15px;
+		vertical-align: top;
+	}	
+	table.detail th{
+		width:150px;
+		border-right: 1px solid #8394ac;
+		border-collapse: collapse;
+	}
+/* END  Tabela LIST */
+
+
+
+/* Menu da Tabela LIST */
+	div.table_menu{
+		margin: 20px 0 0 0;
+	}
+	
+	div.table_menu ul {
+		margin: 0;
+	}
+	
+	div.table_menu li {
+		float:right;
+	    border: 1px solid #8394ac;
+		list-style: none;
+		margin: 0;
+	    padding: 0px 7px 0px 7px;
+	   	font-size: 0.9em;
+	   	background-color: #F1F3F5;
+	    line-height: 1.5em;
+	}
+	
+	div.table_menu li.last {
+		border-right: 1px solid #8394ac;
+	}
+	
+/* END Menu da Tabela LIST */
+
+/**********************************************************************************/
+
+hr {
+	display: none;
+}
+
+div.hr {
+	height: 1px;
+	margin: 1.5em 10px;
+	border-bottom: 1px dotted black;
+}
+
+/* END TYPOGRAPHY */ 
+
+/*********************************
+           Project: CSS Table Galery
+           Title: Like Adwords
+           Author: Cleiton Francisco
+           URL: http://www.cleiton.net/
+           Country: Brazil
+           Update: 2005-12-18
+         *******************************/

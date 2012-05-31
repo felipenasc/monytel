@@ -1,0 +1,183 @@
+
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmmc .qmdivider{display:block;font-size:1px;border-width:0px;border-style:solid;position:relative;z-index:10;}.qmmc .qmdividery{float:left;width:0px;}.qmmc .qmtitle{display:block;cursor:default;white-space:nowrap;position:relative;z-index:10;}.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;float:none !important;}.qmmc {position:relative;zoom:1;z-index:100;}.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;position:relative;z-index:10;}.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}.qmsh div a {float:left;}.qmmc div{visibility:hidden;position:absolute;}.qmmc .qmcbox{cursor:default;display:block;position:relative;z-index:10;}.qmmc .qmcbox a{display:inline;}.qmmc .qmcbox div{float:none;position:static;visibility:inherit;left:auto;}.qmmc li {z-index:auto;}.qmmc ul {left:-10000px;position:absolute;z-index:100;}.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}.qmmc li a {float:none}.qmmc li:hover>ul{left:auto;}#qm0 ul {top:100%;}#qm0 ul li:hover>ul{top:0px;left:100%;}
+
+
+/*!!!!!!!!!!! QuickMenu Styles [Please Modify!] !!!!!!!!!!!*/
+
+
+	/* QuickMenu 0 */
+
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{	
+		background-color:transparent;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #e2e3e4 white #e2e3e4 white;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+		padding:5px 8px 5px 8px;
+		color:#1F77AF;
+		font-family:Arial;
+		font-size:12px;
+		text-decoration:none;
+		border-width:0px;
+		border-style:solid;
+	}
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div, #qm0 ul	
+	{	
+		padding:8px;
+		margin:-2px 0px 0px 0px;
+		border-width:1px;
+		border-style:none;
+		text-align: left;
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+		padding:2px 5px 2px 15px;
+		margin:0px 0px 2px 0px;
+		font-size:11px;
+		border-style:none;
+		background: url(../../images2/blox2.gif) no-repeat center left;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover	
+	{	
+		background-color:transparent;
+	}
+
+
+	/*"""""""" (SUB) Hover State - (duplicated for pure CSS)""""""""*/	
+	#qm0 ul li:hover>a	
+	{	
+		background-color:transparent;
+	}
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+	{	
+		color:#393A3A;
+		border-color:transparent;
+	}
+
+
+	/*"""""""" Individual Titles""""""""*/	
+	#qm0 .qmtitle	
+	{	
+		font-size:11px;
+	}
+
+
+	/*"""""""" Individual Horizontal Dividers""""""""*/	
+	#qm0 .qmdividerx	
+	{	
+		border-top-width:1px;
+		margin:5px;
+		border-style:dashed;
+		border-color:#393A3A;
+	}
+
+
+	/*"""""""" Individual Vertical Dividers""""""""*/	
+	#qm0 .qmdividery	
+	{	
+		border-left-width:2px;
+		height:16px;
+		margin:5px 8px 0px 8px;
+		border-color:#f28e00;
+	}
+
+
+	/*"""""""" (main) Rounded Items""""""""*/	
+	#qm0 .qmritem span	
+	{	
+		border-color:#FFFFFF;
+		background-color:#FFFFFF;
+	}
+
+
+	/*"""""""" (main) Rounded Items Content""""""""*/	
+	#qm0 .qmritemcontent	
+	{	
+		padding:0px 0px 0px 4px;
+	}
+
+
+	/*"""""""" (main) Rounded Items Hover""""""""*/	
+	#qm0 a:hover .qmritem span	
+	{	
+		background-color:#F28E00;
+		text-decoration:none;
+		color:white;
+	}
+
+
+	/*"""""""" (main) Rounded Items Active""""""""*/	
+	body #qm0 .qmactive .qmritem span, body #qm0 .qmactive:hover .qmritem span	
+	{	
+		border-color:#F28E00;
+		background-color:#F28E00;
+		text-decoration:none;
+	}
+
+
+	/*"""""""" (sub) Rounded Items""""""""*/	
+	#qm0 div .qmritem span	
+	{	
+		border-color:#666666;
+		background-color:#EEEEEE;
+	}
+
+
+	/*"""""""" (sub) Rounded Items Content""""""""*/	
+	#qm0 div .qmritemcontent	
+	{	
+		padding:0px 0px 0px 4px;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 ul .qmparent	
+	{	
+		background-image:url(http://www.opencube.com/qmv_vdesign6/qmv6/qmimages/arrow_5.gif);
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 .qmparent	
+	{	
+		background-image:url(http://www.opencube.com/qmv_vdesign6/qmv6/qmimages/arrow_7.gif);
+		background-repeat:no-repeat;
+		background-position:95% 55%;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 li:hover > a	
+	{	
+		background-color:#DFE0E0;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 ul	
+	{	
+		background-color:#DFE0E0;
+		border-width:1px;
+		border-style:solid;
+		border-color:#4F5050;
+	}

@@ -1,0 +1,214 @@
+/* A CSS Framework by Mike Stenhouse of Content with Style
+
+     Color pallete:
+             #444        - dark gray (text)
+             #3e9ade - medium blue (title)
+             #b4c24b - lime (header 1)
+             #ebf5fc - light cyan (hover text, footer)
+             #d7e9f5    - medium cyan (tab)
+             #1465b7 - dark blue (tab text, hyperlink)
+             #ccc         - medium gray (line)
+             #f7f7f7 - light gray (form background)
+             #f90        - orange (required *)
+*/ /* TYPOGRAPHY */
+body {
+	text-align: left;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 76%;
+	line-height: 1em;
+	color: #444;
+}
+
+div {
+	font-size: 1em;
+}
+
+img {
+	border: 0;
+}
+
+/* LINKS */
+a,a:link
+            a:active {
+	color: #1465b7;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #1465b7;
+	background-color: transparent;
+}
+
+a:hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+/* END LINKS */ /* HEADINGS */
+h1,h2,h3,h4,h5,h6 {
+	font-family: tahoma, arial, helvetica, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.2em;
+	letter-spacing: -1px;
+	line-height: 1.3em;
+	margin: 0 0 0 0;
+	padding: 0;
+	color: #b4c24b;
+}
+
+div#branding h1 {
+	font-size: 2.6em;
+	letter-spacing: -1px;
+	margin: 0;
+	line-height: 1.5em;
+	color: #3e9ade;
+}
+
+div#branding p {
+	margin: 0;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 1.4em;
+	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	color: black;
+}
+
+h4 {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	color: black;
+}
+
+h5 {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	color: black;
+}
+
+h6 {
+	font-size: 1em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	color: black;
+}
+
+/* END HEADINGS */ /* TEXT */
+p {
+	font-size: 1em;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+blockquote {
+	border-left: 10px solid #ddd;
+	margin-left: 10px;
+}
+
+pre {
+	font-family: monospace;
+	font-size: 12px;
+}
+
+strong,b {
+	font-weight: bold;
+}
+
+em,i {
+	font-style: italic;
+}
+
+code {
+	font-family: "courier new", courier, monospace;
+	font-size: 12px;
+	white-space: pre;
+}
+
+/* END TEXT */ /* LISTS */
+ul.glassList {
+	list-style: url(../../images/aquadot.jpg) disc outside;
+	vertical-align: top;
+	line-height: 1.5em;
+}
+
+dl {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+dl dt {
+	font-weight: bold;
+	margin: 0.25em 0 0.25em 0;
+	padding: 0;
+}
+
+dl dd {
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+/* END LISTS */ 
+
+div.paginateButtons{
+	float: right;
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+a.step, a.actual{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+a.prevLink{
+	margin-right: 7px;
+}
+a.nextLink{
+	margin-left: 7px;
+}
+a.actual{
+	color: black;
+}
+
+div .errors {
+	border: 1px solid red;
+	padding: 5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color: #FFFFA4;
+}
+td .errors {
+   border: 1px solid red;
+}
+
+div#fileDownloadDiv a, div#fileDownloadDiv a:visited{
+	TEXT-DECORATION: underline;
+	font-size: 10px;
+}
+div#fileDownloadDiv{font-size: 10px;}
+div.whlPasswd{
+    font-size:18px;
+    border:1px solid #0000cc;
+    background-color:#f1f1f2;
+    padding:15px;
+    margin-top:20px;
+}
