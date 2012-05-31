@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="Menu" table="menu">
+    <id name="id" column="id" unsaved-value="null">
+      <generator class="native"></generator>
+    </id>
+    
+    <version name="version" column="version" type="java.lang.Long"/>
+    
+    <property name="menuText" column="menu_text" not-null="true"/>
+    <property name="uri" column="uri" not-null="false"/>
+    <property name="priority" column="priority" not-null="true"/>
+    <property name="level" column="level" not-null="true"/>
+    <property name="active" column="active" not-null="true"/>
+    
+    
+    <set name="childrenMenus" cascade="all,delete-orphan" sort="natural" order-by="priority asc">
+        <key column="parent_menu"/>
+        <one-to-many class="Menu"/>
+    </set>
+    
+    <many-to-one name="parentMenu" class="Menu" column="parent_menu" not-null="false"/>
+    
+    <many-to-one name="page" class="Page" column="page" not-null="false" fetch="join"/>
+    
+    
+  </class>
+</hibernate-mapping>

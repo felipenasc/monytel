@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="User" table="appuser">
+    <id name="id" column="id" unsaved-value="null">
+      <generator class="native"></generator>
+    </id>
+    
+    <version name="version" column="version" type="java.lang.Long"/>
+    
+    <property name="name" column="name" not-null="true"/>
+    <property name="email" column="email" not-null="true"/>
+    <property name="passwd" column="passwd" not-null="true"/>
+    <property name="active" column="active" not-null="true"/>
+    
+    
+    <set name="permissions" table="user_permission" lazy="true" cascade="save-update">
+      <key>
+        <column name="user_id" not-null="true"/>
+      </key>
+      <many-to-many class="Permission">
+        <column name="permission_id" not-null="true"/>
+      </many-to-many>
+    </set>
+    
+    
+  </class>
+</hibernate-mapping>

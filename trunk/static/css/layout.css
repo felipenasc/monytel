@@ -1,0 +1,132 @@
+/* A CSS Framework by Mike Stenhouse of Content with Style */
+
+/* SITE SPECIFIC LAYOUT */
+    body {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+/* END LAYOUT */
+
+
+/* Z LAYOUT */
+
+html, body, div#page {
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+div#zlogo{
+	float:left;
+	width: 150px;
+	height: 85px;
+	padding: 6px 9px 9px 20px;
+	margin-right: 10px;
+}
+div#zheader{
+	float:left;
+	height: 95px;
+	width: 700px;
+}
+
+
+div#zheadertop{
+	padding: 2px;
+	margin-bottom: 18px;
+	height: 40px;
+}
+div#zheadertop p{
+	clear: both;
+	height: 0px;
+}
+
+div#zheaderbottom{
+	padding: 0;
+}
+
+
+
+div#ztopmenudyna{
+	width: 95%;
+}
+
+div#zcontent{
+	margin-top: 20px;
+	padding: 7px;
+}
+
+div#zcontent .right{
+	float: right;
+}
+
+div#zfooter{
+	width: 100%;
+	margin-top: 40px;
+}
+
+div#zfooter .left {
+        float: left;
+}
+
+div#zfooter .right {
+        float: right;
+}
+
+
+div.zdividerthin{
+	clear: both;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	border-top: 1px solid #333333;
+}
+div.zdividerthick{
+	border-top: 7px solid #E4E4E4;
+	clear: both;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+span.aguardeMsg {
+   font-family      : Tahoma;
+   font-size        : 11px;
+   font-weight      : bold;
+   margin           : 2px 6px;
+   padding			: 4px;
+}
+
+.aguardeContainer{
+	background-color: #ffd363;
+	position		: absolute;
+	z-index			: 500;
+	right			: 0px;
+	top				: 0px;
+	visibility		: hidden;
+	width			: 180px;
+}
+
+.nav{
+	margin-bottom: 10px;
+}
+
+.paginateButtons {
+	background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-top: 0;
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}

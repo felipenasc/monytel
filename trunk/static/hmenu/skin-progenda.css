@@ -1,0 +1,14 @@
+@import url("hmenu.css");
+
+div.dynarch-horiz-menu { background-color: #e5e5e5; color: gray; border-color: silver; }
+div.dynarch-horiz-menu table { color: #464646; }
+div.dynarch-horiz-menu table tr td.hover { background-color: #CACACA; color: #D76500; }
+div.dynarch-horiz-menu table tr td.active { background-color: #D76500; color: #FFFFFF; }
+div.dynarch-horiz-menu table tr td.hover table,
+div.dynarch-horiz-menu table tr td.active table { color: #ff8; }
+div.dynarch-horiz-menu table tr td.separator div { border-right-color: #ffc; border-left-color: #cc5; margin-right: 3px; }
+
+div.dynarch-popup-menu { background-color: #FFE8D2; padding: 0; color: #000; }
+div.dynarch-popup-menu tr.item.hover { background-color: #FFB66C; color: #fff; }
+div.dynarch-popup-menu tr.item.active { background-color: #D76500; color: #fff; }
+div.dynarch-popup-menu tr.separator td div { background: #cc5; }

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration
+  PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+    <mapping resource="Menu.hbm.xml"/>
+    <mapping resource="Page.hbm.xml"/>
+    
+    <mapping resource="Category.hbm.xml"/>
+    <mapping resource="MFile.hbm.xml"/>
+    
+     
+    <!-- from interauth grails plugin -->
+    <mapping resource="Permission.hbm.xml"/>
+    <mapping resource="User.hbm.xml"/>
+    
+  </session-factory>
+</hibernate-configuration>

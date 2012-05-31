@@ -1,0 +1,111 @@
+/* .yui-navset defaults to .yui-navset-top */
+.yui-skin-sam .yui-navset .yui-nav,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-nav { /* protect nested tabviews from other orientations */
+    border:solid transparent; /* color between tab list and content */
+    border-width:0px;
+    Xposition:relative;
+    zoom:1;
+    padding-left: 20px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav li,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-nav li {
+    margin:0 0.16em 0 0; /* space between tabs */
+    padding:1px 0 0; /* gecko: make room for overflow */
+    zoom:1;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-nav .selected { 
+    margin:0 0.16em -1px 0; /* for overlap */
+}
+
+.yui-skin-sam .yui-navset .yui-nav a,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-nav a {
+    color: #5a0606;
+    font-weight:bold;
+    background: url(../images2/tab_inactive.png) no-repeat;
+    width: 160px;
+    height: 30px;
+    border-width: 0px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a em,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-nav a em {
+    border:solid transparent;
+    border-width:0px 0 0;
+    cursor:hand;
+    padding:0.25em .75em;
+    left:0; right: 0; bottom: 0; /* protect from other orientations */
+    top:-1px; /* for 1px rounded corners */
+    position:relative;
+    text-align: center;
+}
+
+.yui-navset{
+	margin-left: 10px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected a,
+.yui-skin-sam .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-skin-sam .yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    color: #d70000;
+    font-weight:bold;
+    background: url(../images2/tab_active.png) no-repeat;
+    width: 160px;
+    height: 30px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a:hover,
+.yui-skin-sam .yui-navset .yui-nav a:focus {
+    color: #d70000;
+    font-weight:bold;
+    background: url(../images2/tab_inactive.png) no-repeat;
+    width: 160px;
+    height: 30px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected a em {
+    padding:0.35em 0.75em; /* raise selected tab */
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected a,
+.yui-skin-sam .yui-navset .yui-nav .selected a em {
+    border-color:#BBBBBB; /* selected tab border color */
+    margin-top: 8px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a em {
+	margin-top: 10px;
+}
+
+.middletabview {
+    background: url(../images2/meio_div_abas.gif) repeat top left!important;
+    padding: 0px 20px 10px 20px;
+}
+
+.toptabview {
+    background: red url(../images2/topo_div_abas.gif) no-repeat top left!important;
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottomtabview {
+    background: url(../images2/baixo_div_abas.gif) no-repeat top left!important;
+    width: 100%;
+    height: 40px;
+}
+
+.yui-skin-sam .yui-navset .yui-content {
+    background:#F1F1F1; /* content background color */
+}
+
+.yui-skin-sam .yui-navset .yui-content,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-content {
+    border:0px solid transparent; /* content border */
+    border-top-color:transparent; /* different border color */
+    padding:0px; /* content padding */
+    width: 700px;
+}
